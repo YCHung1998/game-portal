@@ -1,0 +1,25 @@
+name: Validate games.json
+
+on:
+  push:
+    paths:
+      - "games.json"
+      - "games.schema.json"
+  pull_request:
+    paths:
+      - "games.json"
+      - "games.schema.json"
+
+jobs:
+  schema-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+      - name: Validate games.json against schema
+        run: ajv validate -s games.schema.json -d games.json -c ajv-formats --spec=draft7

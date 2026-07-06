@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eason's Game Arcade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="arcade-header">
+    <h1>EASON'S GAME ARCADE</h1>
+    <p class="tagline">// 小遊戲總入口 · PRESS START //</p>
+  </header>
+
+  <main>
+    <div id="filter-bar" class="filter-bar" hidden>
+      <button class="tag-btn active" data-tag="all">ALL</button>
+    </div>
+    <div id="card-grid" class="card-grid">
+      <p id="loading-msg">LOADING GAMES...</p>
+    </div>
+  </main>
+
+  <footer class="arcade-footer">
+    <p>&copy; <span id="year"></span> Eason1998 — Made with pixels</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

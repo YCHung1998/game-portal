@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gomoku",
+    "title": "五子棋 Gomoku",
+    "description": "15×15 五子棋，支援人機對戰與雙人 PK，AI 與棋盤邏輯用 Python 透過 Pyodide 直接在瀏覽器執行。",
+    "url": "https://ychung1998.github.io/gomoku/",
+    "thumbnail": "thumbnails/gomoku.png",
+    "tags": ["棋類", "雙人", "人機對戰"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
+    "id": "solve24",
+    "title": "24點大師 Solve24",
+    "description": "給 4 張撲克牌，用四則運算與括號湊出 24。同時支援 Streamlit 網頁介面與 FastMCP AI Tool。",
+    "url": "https://solve24-game.onrender.com/",
+    "thumbnail": "thumbnails/solve24.png",
+    "tags": ["益智", "數字", "單人"],
+    "status": "playable",
+    "complexity": "complex"
+  }
+]

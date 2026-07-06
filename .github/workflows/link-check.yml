@@ -1,0 +1,32 @@
+name: Weekly link check
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # 每週一 UTC 03:00 (台灣時間週一 11:00)
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract urls from games.json
+        run: |
+          node -e "
+            const games = require('./games.json');
+            games.forEach(g => console.log(g.url));
+          " > urls.txt
+          cat urls.txt
+      - name: Check each url
+        run: |
+          fail=0
+          while read -r url; do
+            [ -z "$url" ] && continue
+            status=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 20 "$url")
+            echo "$status  $url"
+            if [ "$status" -ge 400 ]; then
+              echo "::error::Broken link ($status): $url"
+              fail=1
+            fi
+          done < urls.txt
+          exit $fail
