@@ -9,6 +9,7 @@
 | 遊戲 | 說明 | 連結 |
 |---|---|---|
 | 五子棋 Gomoku | 15×15 五子棋，人機對戰／雙人 PK | <https://ychung1998.github.io/gomoku/> |
+| 2048 | 經典數字合併遊戲，固定配色＋合併特效與音效 | <https://ychung1998.github.io/game-2048/> |
 | 24點大師 Solve24 | 4 張牌湊 24 點的益智遊戲 | <https://solve24-game.onrender.com/> |
 
 ## 專案結構
