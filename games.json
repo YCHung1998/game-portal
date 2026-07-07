@@ -20,6 +20,26 @@
     "complexity": "simple"
   },
   {
+    "id": "othello",
+    "title": "黑白棋 Othello",
+    "description": "8×8 黑白棋，支援人機對戰與雙人 PK，AI 用 negamax + alpha-beta 剪枝並在殘局窮盡搜尋，Python 透過 Pyodide 在瀏覽器執行。",
+    "url": "https://ychung1998.github.io/othello/",
+    "thumbnail": "thumbnails/othello.png",
+    "tags": ["棋類", "雙人", "人機對戰"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
+    "id": "snake",
+    "title": "貪吃蛇 Snake",
+    "description": "經典貪吃蛇，方向鍵或滑動控制，吃食物變長並隨分數加速，撞牆撞自己遊戲結束。",
+    "url": "https://ychung1998.github.io/game-snake/",
+    "thumbnail": "thumbnails/snake.png",
+    "tags": ["動作", "單人"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
     "id": "solve24",
     "title": "24點大師 Solve24",
     "description": "給 4 張撲克牌，用四則運算與括號湊出 24。同時支援 Streamlit 網頁介面與 FastMCP AI Tool。",
