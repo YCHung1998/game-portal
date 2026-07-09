@@ -40,6 +40,26 @@
     "complexity": "simple"
   },
   {
+    "id": "flappy",
+    "title": "Flappy Bird",
+    "description": "經典 Flappy Bird，點擊振翅穿越水管缺口，難度隨分數上升。物理與碰撞用 Python 透過 Pyodide 在瀏覽器執行。",
+    "url": "https://ychung1998.github.io/game-flappy/",
+    "thumbnail": "thumbnails/flappy.png",
+    "tags": ["動作", "單人"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
+    "id": "downstairs",
+    "title": "小朋友下樓梯",
+    "description": "NS-Shaft 式下樓梯：躲尖刺、踩彈簧、往深處走，樓層數就是分數。物理與台階生成用 Python 透過 Pyodide 在瀏覽器執行。",
+    "url": "https://ychung1998.github.io/game-downstairs/",
+    "thumbnail": "thumbnails/downstairs.png",
+    "tags": ["動作", "單人"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
     "id": "solve24",
     "title": "24點大師 Solve24",
     "description": "給 4 張撲克牌，用四則運算與括號湊出 24。同時支援 Streamlit 網頁介面與 FastMCP AI Tool。",

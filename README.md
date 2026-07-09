@@ -12,6 +12,8 @@
 | 黑白棋 Othello | 8×8 黑白棋，人機對戰／雙人 PK，AI 用 negamax + alpha-beta | <https://ychung1998.github.io/othello/> |
 | 2048 | 經典數字合併遊戲，固定配色＋合併特效與音效 | <https://ychung1998.github.io/game-2048/> |
 | 貪吃蛇 Snake | 經典貪吃蛇，吃食物變長並隨分數加速 | <https://ychung1998.github.io/game-snake/> |
+| Flappy Bird | 點擊振翅穿越水管，Python(Pyodide) 物理引擎 | <https://ychung1998.github.io/game-flappy/> |
+| 小朋友下樓梯 | NS-Shaft 式下樓梯，躲尖刺踩彈簧往深處走 | <https://ychung1998.github.io/game-downstairs/> |
 | 24點大師 Solve24 | 4 張牌湊 24 點的益智遊戲 | <https://solve24-game.onrender.com/> |
 
 ## 專案結構
