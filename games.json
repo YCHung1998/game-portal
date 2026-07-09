@@ -60,6 +60,16 @@
     "complexity": "simple"
   },
   {
+    "id": "minesweeper",
+    "title": "踩地雷 Minesweeper",
+    "description": "經典 Windows 95/98 風格踩地雷，三種難度、首擊安全、連鎖展開，左鍵挖格、右鍵插旗。",
+    "url": "https://ychung1998.github.io/minesweeper/",
+    "thumbnail": "thumbnails/minesweeper.png",
+    "tags": ["益智", "單人"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
     "id": "solve24",
     "title": "24點大師 Solve24",
     "description": "給 4 張撲克牌，用四則運算與括號湊出 24。同時支援 Streamlit 網頁介面與 FastMCP AI Tool。",
