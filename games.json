@@ -70,12 +70,32 @@
     "complexity": "simple"
   },
   {
+    "id": "solitaire",
+    "title": "經典接龍 Klondike Solitaire",
+    "description": "經典 Windows 風格紙牌接龍，點選式操作（點牌選取、點目的地移動、雙擊送基礎堆），抽 1 張／抽 3 張模式可切換。",
+    "url": "https://ychung1998.github.io/solitaire/",
+    "thumbnail": "thumbnails/solitaire.png",
+    "tags": ["紙牌", "益智", "單人"],
+    "status": "playable",
+    "complexity": "simple"
+  },
+  {
     "id": "solve24",
     "title": "24點大師 Solve24",
     "description": "給 4 張撲克牌，用四則運算與括號湊出 24。同時支援 Streamlit 網頁介面與 FastMCP AI Tool。",
     "url": "https://solve24-game.onrender.com/",
     "thumbnail": "thumbnails/solve24.png",
     "tags": ["益智", "數字", "單人"],
+    "status": "playable",
+    "complexity": "complex"
+  },
+  {
+    "id": "station-typing",
+    "title": "站名打字競速（台北捷運版）",
+    "description": "自由選起訖站，跨線轉乘也算得出來，沿路打站名（拼音／英文雙模式），火車依打字速度沿真實地理路網移動，結束後看正確率、WPM、分數與整趟軌跡回放。",
+    "url": "https://ychung1998.github.io/station-typing/",
+    "thumbnail": "thumbnails/station-typing.png",
+    "tags": ["打字", "益智", "單人"],
     "status": "playable",
     "complexity": "complex"
   }
