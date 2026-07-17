@@ -93,7 +93,7 @@
     "id": "station-typing",
     "title": "站名打字競速（台北捷運版）",
     "description": "自由選起訖站，跨線轉乘也算得出來，沿路打站名（拼音／英文雙模式），火車依打字速度沿真實地理路網移動，結束後看正確率、WPM、分數與整趟軌跡回放。",
-    "url": "https://ychung1998.github.io/station-typing/",
+    "url": "https://station-typing.pages.dev/",
     "thumbnail": "thumbnails/station-typing.png",
     "tags": ["打字", "益智", "單人"],
     "status": "playable",
