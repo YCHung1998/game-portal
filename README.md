@@ -15,6 +15,7 @@
 | Flappy Bird | 點擊振翅穿越水管，Python(Pyodide) 物理引擎 | <https://ychung1998.github.io/game-flappy/> |
 | 小朋友下樓梯 | NS-Shaft 式下樓梯，躲尖刺踩彈簧往深處走 | <https://ychung1998.github.io/game-downstairs/> |
 | 24點大師 Solve24 | 4 張牌湊 24 點的益智遊戲 | <https://solve24-game.onrender.com/> |
+| 雙人推撲克 Push Poker | 擲骰拆點數推牌進中央，雙人同機／對戰電腦／線上對戰（Cloudflare Workers） | <https://poker-push.yicheng-self.workers.dev/> |
 
 ## 專案結構
 

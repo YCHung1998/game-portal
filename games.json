@@ -98,5 +98,14 @@
     "tags": ["打字", "益智", "單人"],
     "status": "playable",
     "complexity": "complex"
+  },
+  {
+    "id": "poker-push",
+    "title": "雙人推撲克 Push Poker",
+    "description": "擲骰子後拆成不同數字的牌推進中央，推進去的牌會把對手同數字的牌推回起點，先把 1～6 全部推進中央的人獲勝。可雙人同機、對戰電腦（簡單／困難），或用房間代碼線上對戰。",
+    "url": "https://poker-push.yicheng-self.workers.dev/",
+    "tags": ["紙牌", "雙人", "人機對戰", "線上對戰"],
+    "status": "playable",
+    "complexity": "complex"
   }
 ]
