@@ -107,5 +107,14 @@
     "tags": ["紙牌", "雙人", "人機對戰", "線上對戰"],
     "status": "playable",
     "complexity": "complex"
+  },
+  {
+    "id": "game-pinball",
+    "title": "彈珠回想 Pinball Recall",
+    "description": "空間記憶訓練：盤面上的反射鏡只閃現一瞬間就蓋牌，接著要用腦內光線追蹤推算彈珠會從周圍哪一個出口射出。七個難度，反射鏡越多、預覽越短、還要限時作答。",
+    "url": "https://game-pinball.yicheng-self.workers.dev/",
+    "tags": ["益智", "單人", "記憶"],
+    "status": "wip",
+    "complexity": "complex"
   }
 ]
