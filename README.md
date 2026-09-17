@@ -14,7 +14,10 @@
 | 貪吃蛇 Snake | 經典貪吃蛇，吃食物變長並隨分數加速 | <https://ychung1998.github.io/game-snake/> |
 | Flappy Bird | 點擊振翅穿越水管，Python(Pyodide) 物理引擎 | <https://ychung1998.github.io/game-flappy/> |
 | 小朋友下樓梯 | NS-Shaft 式下樓梯，躲尖刺踩彈簧往深處走 | <https://ychung1998.github.io/game-downstairs/> |
+| 踩地雷 Minesweeper | 經典 Windows 95/98 風格踩地雷，三種難度、首擊安全、連鎖展開 | <https://ychung1998.github.io/minesweeper/> |
+| 經典接龍 Klondike Solitaire | 經典 Windows 風格紙牌接龍，點選式操作，抽 1 張／抽 3 張模式可切換 | <https://ychung1998.github.io/solitaire/> |
 | 24點大師 Solve24 | 4 張牌湊 24 點的益智遊戲 | <https://solve24-game.onrender.com/> |
+| 站名打字競速（台北捷運版） | 自由選起訖站，沿路打站名（拼音／英文雙模式），火車依打字速度沿真實路網移動 | <https://station-typing.pages.dev/> |
 | 雙人推撲克 Push Poker | 擲骰拆點數推牌進中央，雙人同機／對戰電腦／線上對戰（Cloudflare Workers） | <https://poker-push.yicheng-self.workers.dev/> |
 
 ## 專案結構
